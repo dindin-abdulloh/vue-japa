@@ -1,0 +1,46 @@
+{
+  "name": "windzo",
+  "version": "1.0.1",
+  "description": "Free Open Source Template Dashboard Admin Vue Tailwind CSS",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "windsass": "sass --watch src/assets/sass/app.windzo.scss src/assets/sass/css/windzo.css",
+    "require": "npm i -g sass @vue/cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahrullahh/windzo.git"
+  },
+  "homepage": "https://windzo.vercel.app",
+  "author": "Mohammad Sahrullah",
+  "license": "MIT",
+  "dependencies": {
+    "apexcharts": "^3.34.0",
+    "autoprefixer": "^10",
+    "chart.js": "^3.7.1",
+    "core-js": "^3.8.3",
+    "flowbite": "^1.4.1",
+    "lodash": "^4.17.21",
+    "perfect-scrollbar": "^1.5.5",
+    "postcss": "^8",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.18.1",
+    "smooth-scrollbar": "^8.7.4",
+    "tailwindcss": "^3",
+    "vue": "^3.2.13",
+    "vue-chartjs": "^4.0.2",
+    "vue-perfect-scrollbar": "^0.2.1",
+    "vue-router": "^4.0.3",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-perfect-scrollbar": "^1.6.0"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^3.2.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "vue-cli-plugin-tailwind": "~3.0.0"
+  }
+}
